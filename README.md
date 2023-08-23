@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Todo List Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project contains a simple todo list application built using React and Redux Toolkit.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- You can add todos.
+- You can mark todos as completed or uncompleted.
+- You can delete todos.
+- You can clear all todos.
 
-### `yarn start`
+## Usage
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The application has a simple user interface:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Add Todo**: Enter text in the input box to add a new todo, then click the "Add" button.
+- **Todo List**: Your added todos will be displayed here. Each todo item includes buttons for toggling completion and deleting.
+- **Clear**: Click the "Clear" button to remove all todos.
 
-### `yarn test`
+---
+# Todo List Uygulaması
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Bu proje, React ve Redux Toolkit kullanılarak oluşturulmuş bir basit yapılacaklar listesi uygulamasını içerir.
 
-### `yarn build`
+## Özellikler
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Yapılacaklar ekleyebilirsiniz.
+- Yapılacakları tamamlanmış olarak işaretleyebilir veya işaretini kaldırabilirsiniz.
+- Yapılacakları silebilirsiniz.
+- Tüm yapılacakları temizleyebilirsiniz.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Kullanım
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Uygulama basit bir kullanıcı arayüzüne sahiptir:
 
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Add Todo**: Yeni bir yapılacak eklemek için metin kutusuna yazı yazın ve "Add" düğmesine tıklayın.
+- **Todo List**: Eklediğiniz yapılacaklar burada görüntülenir. Her yapılacak öğesi, işaretleme ve silme işlemleri için düğmeler içerir.
+- **Clear**: Tüm yapılacakları temizlemek için "Clear" düğmesine tıklayın.
